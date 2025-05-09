@@ -1,0 +1,18 @@
+@import "tailwindcss";
+body {
+  margin: 0;
+  padding-bottom: 72px; 
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .footer-icons {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 769px) {
+  .footer-icons {
+    font-size: 32px;
+  }
+}
